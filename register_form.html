@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            text-align: center;
+            padding-top: 150px;
+        }
+        legend{
+            text-align: left;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        fieldset{
+           margin-left: 30%;
+           margin-right: 30%;
+        }
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+    
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Register Form</legend>
+          
+    
+
+          <label for="fname">First name  :</label>&nbsp;&nbsp;
+          <input type="text" id="fname" name="fname"><br><br>
+    
+
+          <label for="lname">Last name   :</label>&nbsp;&nbsp;
+          <input type="text" id="lname" name="lname"><br><br>
+
+          <label for="pass">password     :</label>&nbsp;&nbsp;
+          <input type="password" id="pwd" name="pwd"><br><br>
+
+          <label for="confirm">confirm password:</label>&nbsp;&nbsp;
+          <input type="password" id="cpwd" name="cpwd"><br><br>
+
+          <label for="email">email:</label>&nbsp;&nbsp;
+          <input type="email" id="email" name="email"><br><br>
+
+          <label for="email">confirm email:</label>&nbsp;&nbsp;
+          <input type="email" id="email" name="email"><br><br>
+
+          <label for="datemin">Birthday:</label>&nbsp;&nbsp;
+          <input type="date" id="datemin" name="datemin" min="1990-01-01"><br><br>
+
+          <label for="gender">Gender:</label>&nbsp;&nbsp;
+          <input type="radio" id="male" name="gender" value="male">
+
+          <label for="male">MALE</label>&nbsp;&nbsp;
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">FEMALE</label><br><br>
+
+          <input type="submit" value="Submit">
+          <input type="reset">
+       
+
+
+ 
+        </fieldset>
+      </form>
+   
+</body>
+
+</html>
